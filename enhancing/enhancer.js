@@ -9,7 +9,7 @@ function succeed(item) {
   if (item.enhancement < 20) {
     const newItem = {
       name: item.name,
-      durability: 100,
+      durability: item.durability,
       enhancement: item.enhancement + 1,
     };
     return newItem;
